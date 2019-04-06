@@ -3,7 +3,8 @@ package factory.simplefactory;
 /**
  * @author: 魏薏恩
  * @date: 2019/4/5 14:30
- * @description:
+ * @description: 简单工厂模式
+ * 特点: 结构复杂度低,代码复杂度低,客户端编程难度低,实际上使用多.
  */
 public class Test {
     public static void main(String[] args) {
