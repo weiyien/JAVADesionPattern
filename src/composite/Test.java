@@ -12,7 +12,7 @@ public class Test {
         AbstractFile abstractFile1 = new TextFile("文字文件");
         folder.addFile(abstractFile);
         folder.addFile(abstractFile1);
-        folder.addFile(folder);
+        // folder.addFile(folder); 无奖竞猜:加上之后是哪个位置会报错呢?
         folder.operation();
     }
 }
